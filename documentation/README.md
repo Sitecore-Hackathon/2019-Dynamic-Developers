@@ -46,5 +46,5 @@
 
 ## Video
 
-The link to the video can be found [here](https://www.youtube.com/watch?v=JCvvcZ8JnF4).
+The link to the video can be found [here](https://www.youtube.com/watch?v=JCvvcZ8JnF4). 
 Packages required to customize can be found [here](https://github.com/Sitecore-Hackathon/2019-Dynamic-Developers/tree/master/sc.package)
