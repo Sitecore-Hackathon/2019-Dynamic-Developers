@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\README.md = src\Feature\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}"
 EndProject
@@ -29,12 +32,48 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecentVisit", "RecentVisit", "{6A285D3B-D036-4640-891B-508F1D959BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicDeveloper", "DynamicDeveloper", "{9DC92C4C-634D-4117-BB75-954C33445243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.DynamicDeveloper", "src\Project\DynamicDevelopers\code\Sitecore.Project.DynamicDeveloper.csproj", "{2BB3A59D-4109-4980-A4F1-CC1E7296684A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Features.RecentVisit", "src\Feature\RecentVisit\code\Sitecore.Features.RecentVisit.csproj", "{CDC9CCB2-1E2A-4C42-AF3D-897EBDAA4B24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{CD2BA586-4822-408B-89FC-80B302AE456F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Dictionary", "src\Foundation\Dictionary\code\Sitecore.Foundation.Dictionary\Sitecore.Foundation.Dictionary.csproj", "{0FE7A53B-6E4C-4EA2-A9DD-EF4CE6189B71}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BB3A59D-4109-4980-A4F1-CC1E7296684A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB3A59D-4109-4980-A4F1-CC1E7296684A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB3A59D-4109-4980-A4F1-CC1E7296684A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB3A59D-4109-4980-A4F1-CC1E7296684A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC9CCB2-1E2A-4C42-AF3D-897EBDAA4B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC9CCB2-1E2A-4C42-AF3D-897EBDAA4B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC9CCB2-1E2A-4C42-AF3D-897EBDAA4B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC9CCB2-1E2A-4C42-AF3D-897EBDAA4B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE7A53B-6E4C-4EA2-A9DD-EF4CE6189B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE7A53B-6E4C-4EA2-A9DD-EF4CE6189B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE7A53B-6E4C-4EA2-A9DD-EF4CE6189B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE7A53B-6E4C-4EA2-A9DD-EF4CE6189B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{6A285D3B-D036-4640-891B-508F1D959BBB} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{9DC92C4C-634D-4117-BB75-954C33445243} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
+		{2BB3A59D-4109-4980-A4F1-CC1E7296684A} = {9DC92C4C-634D-4117-BB75-954C33445243}
+		{CDC9CCB2-1E2A-4C42-AF3D-897EBDAA4B24} = {6A285D3B-D036-4640-891B-508F1D959BBB}
+		{CD2BA586-4822-408B-89FC-80B302AE456F} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{0FE7A53B-6E4C-4EA2-A9DD-EF4CE6189B71} = {CD2BA586-4822-408B-89FC-80B302AE456F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
