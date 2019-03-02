@@ -28,7 +28,7 @@
 
  1. Open content editor and update sitecore items and save it.	
  
-		 ![Content Editor](images/dd_contenteditor.png?raw=true "Content Editor")
+	![Content Editor](images/dd_contenteditor.png?raw=true "Content Editor")
 		 
  2. Navigate to Home tab.
  
@@ -36,13 +36,13 @@
 	
  3. Click on *'Frequently Visited'* custom button, it displays the top 10 list of recently updated items path in a grid panel.
  
-  ![Content Editor](images/dd_contenteditor_list.png?raw=true "Content Editor")
+	![Content Editor](images/dd_contenteditor_list.png?raw=true "Content Editor")
   
  4. On a click of the item, it opens the respective item in the content tree.
  
-![Content Editor](images/dd_contenteditor_list_selected.png?raw=true "Content Editor")
+	![Content Editor](images/dd_contenteditor_list_selected.png?raw=true "Content Editor")
 
-![Content Editor](images/dd_contenteditor_list_final.png?raw=true "Content Editor")
+	![Content Editor](images/dd_contenteditor_list_final.png?raw=true "Content Editor")
 
 ## Video
 
