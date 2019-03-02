@@ -1,71 +1,41 @@
+
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
+## **Adding Custom Button to show Frequently Updated Items on Sitecore Admin Panel**
 
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers.
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+ - **Purpose**: To enhance the content editor accessibility by providing a list of frequently updated items on Sitecore Admin Panel.
+ - **Problem Solved**:  There is no feature available to show recently updated items path in a Sitecore admin panel, Content Editor has to traverse the complete Sitecore content tree to update an item frequently.
+ - **How it works**: In the solution provided, a custom button named as *'Frequently Visited'* is provided on the Home Tab, which displays a top 10 clickable list of recently updated Sitecore Item path on the grid panel. On click of the listed item path, it opens the respective item in the content tree.
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+ - Sitecore 9
 
 ## Installation
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+ Use the Sitecore Installation wizard to install the  [packages](https://github.com/Sitecore-Hackathon/2019-Dynamic-Developers/tree/master/sc.package) listed below:
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+ 1. DynamicDeveloper_CoreItemLibrary.zip
+ 2. DynamicDevelopers_FileLibrary.zip
 
-## Configuration
-
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
-
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+ 1. Open content editor and update sitecore items and save it.	
+		 ![Content Editor](images/dd_contenteditor.png?raw=true "Content Editor")
+ 2. Navigate to Home tab.
+    ![Content Editor](images/dd_contenteditor_home.png?raw=true "Content Editor")
+ 3. Click on *'Frequently Visited'* custom button, it displays the top 10 list of recently updated items path in a grid panel.
+  ![Content Editor](images/dd_contenteditor_list.png?raw=true "Content Editor")
+ 4. On a click of the item, it opens the respective item in the content tree.
+![Content Editor](images/dd_contenteditor_list_selected?raw=true "Content Editor")
+![Content Editor](images/dd_contenteditor_list_final?raw=true "Content Editor")
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+The link to the video can be found [here](https://youtu.be/3bBunB1_i8Y). The items used for the demo can be found [here](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/sc.package/Data_Export_Import_Demo_Package-v1.zip?raw=true)
