@@ -46,4 +46,5 @@
 
 ## Video
 
-The link to the video can be found [here](https://youtu.be/3bBunB1_i8Y). The items used for the demo can be found [here](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/sc.package/Data_Export_Import_Demo_Package-v1.zip?raw=true)
+The link to the video can be found [here](https://www.youtube.com/watch?v=JCvvcZ8JnF4).
+Packages required to customize can be found [here](https://github.com/Sitecore-Hackathon/2019-Dynamic-Developers/tree/master/sc.package)
